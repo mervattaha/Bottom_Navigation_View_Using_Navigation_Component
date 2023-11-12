@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.BottomNavigationViewUsingNavigationComponent"
+        parent="Theme.Material3.DayNight.NoActionBar"
+        >
+
+        <item name="android:statusBarColor"
+            tools:targetapi="l">@color/bottom_nav_selected_item</item>
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.BottomNavigationViewUsingNavigationComponent"
+        parent="Base.Theme.BottomNavigationViewUsingNavigationComponent" />
+</resources>
